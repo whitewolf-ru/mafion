@@ -1,0 +1,13 @@
+/** 2009-01-11 **/
+set names 'cp1251';
+
+alter table USERS
+	add column auto_identify int not null default 0
+		comment 'Идентифицировать ли автоматически у бота, если юзер авторизован у никсерва.';
+
+alter table USERS
+	add column nickserv_id int not null default 0
+		comment 'ID ника в базе никсерва (выводится в /ns info), закрепленный за этим ником.';
+
+
+

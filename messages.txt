@@ -1,0 +1,674 @@
+
+you_have_no_rights_to_use_command = У вас нет прав на использование команды !$NUMBER
+user_already_registered     = Ник $NICK уже зарегистрирован! Для идентификации используйте команду <r>!ident <password></r>
+address_already_registered    = Пользователь с адресом<n> $NORMAL</n> уже зарегистрирован! Если вы уверены, что вы - разные люди :-) обратитесь к администраторам бота
+user_registered_ok      = Вы успешно зарегистрированы! Для идентификации используйте команду <r>!ident <password></r>
+reguser_password_syntax     = Формат команды: <r>!reg <password></r>
+identifyuser_password_syntax    = Формат команды: <r>!identify <password></r>
+no_such_user_in_db      = Вы должны сначала зарегистрироваться командой <r>!reg <password></r>
+wrong_password_for_db     = Неправильный пароль!
+your_status_is        = Ваш статус -
+
+bot_must_be_op        = Бот должен иметь статус оператора!
+start_registration      = Объявляется регистрация в игру #$NUMBER! Для регистрации наберите <n>!reg</n>
+game_will_be_started_in_n_mins    = До начала игры осталось $NUMBER $NORMAL!
+waiting_for_nicklist      = Игра будет начата после инициализации бота... please wait...
+start_registration_notice   = На канале $NUMBER началась регистрация!
+not_enough_number_of_players    = Для начала игры необходимо как минимум $NUMBER $NORMAL!
+notice_reg_time_left      = Внимание! До конца регистрации ещё $NUMBER $NORMAL!
+please_reg_one_minute     = - у вас осталось совсем немного времени! регистрируйтесь!
+registration_finished     = Регистрация закончена! Зарегистрировалось $NUMBER $NORMAL
+registration_was_completed_by   = Регистрация была завершена $ROLE $NICK!
+max_players_num_reached     = Достигнуто максимально допустимое количество игроков!
+no_clones_allowed_to_register   = Игрок с таким же адресом, как у $NICK, уже зарегистрирован - это $NICK!
+no_clones_allowed_to_register_ask_admins= Игрок с таким же адресом, как у $NICK, уже зарегистрирован - это $NICK! Если вы всё-таки не клоны - обратитесь к администраторам бота
+clones_was_registered     = Зарегистрирован клон $NICK - это $NICK!
+user_already_registered     = Вы уже зарегистрированы!
+failed_no_such_user_in_db   = Операция невозможна - ваш ник отсутствует в таблице зарегистрированных ников. Зарегистрируйте свой ник командой <r>!reg <password></r>, затем идентифицируйтесь командой <r>!ident <password></r>, затем повторите операцию
+addclone_password_syntax    = Формат команды: <r>!addclone <address> [comment]</r>
+delclone_password_syntax    = Формат команды: <r>!delclone <address></r>
+no_one_address_deleted      = Ничего не удалено. Возможно, нет такого адреса в таблице клонов
+table_of_clones_is_empty    = Таблица клонов пуста
+clones_list       = Список разрешённых клонов:
+end_of_who        = Инициализация завершена!
+role_settings       = Регистрация на игру закончена, идет раздача ролей; те кому роли не достанутся - обычные ж...ители
+
+you_have_role       = Ты, $NICK - $ROLE!
+please_confirm_role     = Подтверди роль ($NUMBER/$NUMBER)
+you_can_reject_role_n_times   = Ты можешь отказаться от роли ещё $NUMBER $NORMAL
+no_more_users_to_offer_role   = Некому предлагать роль!
+
+ok          = ok
+yes         = !yes
+no          = !no
+
+role_sleeping_and_removed   = $ROLE $NICK удаляется из игры. Спать надо меньше! Бот забирает штраф: $NUMBER
+you_were_been_penalted_for_role_reject  = За отказ от роли бот забирает штраф: $NUMBER
+you_dont_accept_role      = Вы не успели подтвердить роль и были исключены из игры!
+role_rejects_number_exceed    = $NICK не желает играть с ролью и удаляется из игры! Бот забирает штраф: $NUMBER
+meeting_roles       = Ролям выдаётся информация о дружественных ролях...
+playerslist_is_empty      = Список игроков пуст!
+players_list        = Список игроков:
+total         = всего
+user_unregs       = Слизняк $NICK выбывает из игры!
+you_are_citizen_due_number_of_players_was_decreased=В связи с уменьшением количества игроков вы - мирный гражданин!
+police_channel        = Офис Каттани: $NICK
+mafiozi_channel       = Логово мафов: $NICK
+game_was_start_in_demo_mode   = Игра стартует в демо-режиме! Деньги сохраняться не будут! Для нормальной игры нужно как минимум $NUMBER $NORMAL!
+mafiozi_team        = Команда мафиози: 
+increase_level        = Поздравляем! Вы поднялись на уровень $NUMBER!
+decrease_level        = К сожалению, вы опустились на уровень $NUMBER...
+levels          = Уровни:
+your_money        = В этой игре вы заработали $NUMBER$
+your_level        = и ваш уровень - $NUMBER
+now_is_turn_of_mafiozi      = Сейчас ходит мафиози $NICK
+user_exit_during_game     = $NICK покинул нас, но ещё может вернуться до наступления дня/ночи!
+change_nick_back      = $NICK, смена ника во время игры запрещена! Вам необходимо поменять ник на первоначальный до наступления ночи!
+user_comes_back       = $NICK возвращается в игру!
+
+available_setkey_commands   = Доступные ключи:
+type_help_setkey_command    = Для получения справки по конкретному ключу наберите <r>!help setkey <key></r>
+command_setkey_syntax     = Формат команды: <r>!setkey <key> = <parameter></r>
+help          = Для получения помощи будет создан специальный helpbot. В данный момент доступна помощь по командам ниже.
+you_have_no_access_to_setkey_command  = К сожалению, ни одна из команд <r>!setkey</r> вам недоступна...
+
+error         = Произошла ошибка! Бот должен быть перезапущен администратором!
+ban_syntax        = Формат команды: <r>!ban <nick> <time> <reason></r>, time в формате NNhNNmNNs, например: 9h35m
+user_banned       = Пользователь $NICK забанен на $NUMBER $ROLE $NICK (причина: $PHRASE)!
+no_such_user        = Нет такого пользователя на канале!
+table_banlist_is_empty      = Список банов пуст!
+already_banned        = Указанный адрес уже присутствует в таблице банов!
+op_syntax       = Формат команды: <r>!op <nick></r>
+deop_syntax       = Формат команды: <r>!deop <nick></r>
+join_syntax       = Формат команды: <r>!join <#channel></r>
+say_syntax        = Формат команды: <r>!say <text></r>
+warn_syntax       = Формат команды: <r>!warn <text></r>
+voice_syntax        = Формат команды: <r>!voice <text></r>
+available_commands      = Доступные команды:
+no_such_nickaddress_in_banlist    = Нет такого ника/адреса в таблице банов!
+commands_left       = осталось:
+unlimited       = -неограничено-
+make_your_choice      = Итак, ваш выбор?
+roles_night_notice      = Роли, не забудьте сделать ваши заказы! До конца ночи осталось $NUMBER $NORMAL!
+role_night_notice     = Товарищ $ROLE! Не забудьте сделать ваш заказ! А то бот расстроится! До окончания ночи осталось $NUMBER $NORMAL!
+not_enough_level_to_use_this_command  = У вас не хватает уровня для использования этой команды!
+no_such_turns_left      = Вы не можете использовать команду $ROLE
+you_must_specify_nick     = Вы должны указать ник!
+you_must_specify_rolecode   = Вы должны указать код роли!
+wrong_role_code_or_absentrole   = Неверный код роли или роль отсутствует в игре! Посмотреть список кодов ролей можно командой <r>!rolecodes</r>
+no_such_player        = Нет такого игрока!
+error_repeated_nick     = Вы слишком часто заказываете одного и того же игрока! Выберите в эту ночь кого-нибудь другого!
+you_order_nick        = Вы заказали $NICK
+non_confirmed_roles_list    = Ещё не подтвердили роль:
+turns_left        = Ещё не сделали ход:
+you_already_make_your_order   = Вы уже сделали свой заказ! Наберите <r>!cancel</r> или <r>!отмена</r>, если хотите отменить свой заказ.
+you_cancel_your_order     = Вы отменили свой заказ!
+
+show_setkey       = Текущее значение ключа $NICK ($NORMAL): $NUMBER
+no_such_setkey        = Нет такого ключа конфигурации!
+not_enough_status_to_use_setkey   = У вас не хватает уровня доступа для изменения этого ключа!
+mafion_ovr_writing_error    = Ошибка записи в файл mafion.ovr!
+roles_ovr_writing_error     = Ошибка записи в файл roles.ovr!
+setkey_changed        = Значение ключа $PHRASE ($NORMAL) изменено на $NUMBER $NORMAL $NICK!
+no_such_role        = Неправильно указан код роли!
+show_role_settings      = Параметры роли $ROLE: name = $ROLE, playersMin = $NUMBER, repeatOrder = $NUMBER, voiceLevel = $NUMBER, levelsDivider = $NUMBER, features = [$NUMBER]
+wrong_key_for_role      = Неверно указан ключ для роли! Смотри команду <r>!help setrole</r>
+you_must_specify_level      = Вы должны указать уровень!
+you_must_specify_value_of_divider = Вы должны указать значение делителя!
+wrong_level_for_divider     = Неправильно указан уровень роли для делителя!
+too_big_level_for_divider   = Слишком большой уровень делителя! Максимальный уровень игрока (ключ <r>maxLevel</r>) в данный момент = $NUMBER!
+
+role_skips_his_turn     = $ROLE пропускает свой ход!
+bot_takes_penalty     = Бот забирает штраф - $NUMBER$
+open_role_of_player     = $NICK - это $ROLE!
+invite_to_policechannel     = Вы были проверены $ROLE. Офис Каттани - $NICK
+checked_by_c        = комиссаром Каттани
+checked_by_b        = бомжом
+checked_by_h        = хакером
+
+say         = $NICK: $PHRASE
+warn          = $NICK: 
+
+you_can_voice_now     = Теперь вы можете использовать команду <r>!voice <текст></r>, чтобы разговаривать на канале через бота!
+you_have_no_level_to_use_voice    = У вас не хватает уровня для использования команды <r>!voice</r>!
+cand_statistics       = Статистика голосов: [$NUMBER:$NUMBER]
+voteforcandidate_time_left    = Жители, голосуйте! До конца голосования осталось $NUMBER $NORMAL!
+vote_time_left        = До окончания голосования осталось $NUMBER $NORMAL $NUMBER $NORMAL!
+alibi_speech        = Оправдывайся, $NICK! У тебя есть $NUMBER $NORMAL для оправдания. Конец речи - <r>!всё</r>
+vote_yes        = за
+vote_no         = против
+vote_whoknows       = воздержался
+vote_yesno_show       = [$NUMBER:$NUMBER] [$NUMBER/$NUMBER] Товарищ $NICK проголосовал(а) $NUMBER $NORMAL $NICK!
+vote_whoknows_show      = [$NUMBER:$NUMBER] [$NUMBER/$NUMBER] Товарищ $NICK воздержался от казни $NICK!
+kazn          = казнь
+kazni         = казни
+citizens        = Мирные жители:
+alives_takes_money      = Выжившим начисляются деньги:
+money_for_execute     = За голосование игроки получают деньги -
+money_collect_only_yes_voting   = Деньги получают только голосовавшие !за казнь кандидата!
+player_will_not_executed    = Подсудимый $NICK оправдан!
+no_voted_players_was_penalted   = Неголосовавшие игроки потеряли по $$NUMBER!
+final_execution_speech      = Последнее слово подсудимого $NICK! Конец речи - <r>!всё</r>
+
+you_cant_order_yourself_at_first_night  = К сожалению, вы не можете заказывать себя в первую ночь! Выберите другого игрока.
+now_you_can_make_orders_for_guardian  = Теперь вы можете делать заказы <r>телохранителю</r> на следующую ночь командой <n>!go ник сумма</n>!
+now_you_can_make_orders_for_killer  = Теперь вы можете делать заказы <r>киллеру</r> на следующую ночь командой <n>!ko ник сумма</n>!
+no_guardian_in_this_game    = В игре нет телохранителя! Выкручивайтесь, как хотите!
+no_killer_in_this_game      = В игре нет киллера! Ничего не поделаешь!
+invalid_amount        = Недопустимая сумма!
+your_order_for_guardian_taken   = Ваш заказ принят!
+your_order_for_killer_taken   = Ваш заказ принят! Спасибо за то, что воспользовались услугами киллера!
+statistics_of_orders      = Статистика заказов:
+guardian_collects_money     = Дополнительно от заказчиков телохранитель получает $NUMBER$!
+killer_collects_money     = Дополнительно от заказчиков киллер получает $NUMBER$!
+guardianorder_syntax      = Формат команды: <r>!go <ник> <сумма></r>
+killerorder_syntax      = Формат команды: <r>!ko <ник> <сумма></r>
+
+won_f         = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> ПОБЕДА МАФОВ!
+won_m         = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> ПОБЕДА МАНЬЯКА! Мрак опустился на город...
+won_s         = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> ПОБЕДА ДЕВКИ! Привет, мальчики!
+won_h         = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> ПОБЕДА ХАКЕРА! System halted...
+won_g         = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> ПОБЕДА ТЕЛОХРАНИТЕЛЯ!
+won_t         = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> ПОБЕДА ТЕРРОРИСТА!
+won_k         = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> ПОБЕДА КИЛЛЕРА!
+won_c         = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> ПОБЕДА КОМИССАРА КАТТАНИ! Трепещите, злодеи!
+won_z         = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> ПОБЕДА ЖИТЕЛЕЙ!
+won_d         = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> ПОБЕДА ДОКТОРА!
+won_a         = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> ПОБЕДА АДВОКАТА!
+won_r         = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> ПОБЕДА ЖУРНАЛИСТА!
+won_b         = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> ПОБЕДА БОМЖА!
+won_i         = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> ПОБЕДА БАРЫГИ!
+won_*         = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> Все умерли! В городе бесчинствуют мародёры! Хэппи энд! Победа бота!
+won_mc          = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> Ничья комиссара Каттани и маньяка!
+won_mf          = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> Ничья маньяка и мафиози!
+won_fc          = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> Ничья комиссара Каттани и мафов!
+won_mk          = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> Ничья маньяка и киллера!
+won_kc          = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> Ничья комиссара Каттани и киллера!
+won_fk          = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> Ничья киллера и мафиози!
+won_mt          = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> Ничья маньяка и террориста!
+won_ft          = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> Ничья мафиози и террориста!
+won_kt          = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> Ничья киллера и террориста!
+won_ct          = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> Ничья комиссара Каттани и террориста!
+won_bot         = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> Победа бота!
+
+casting         = В главных ролях:
+scores_of_citizens      = В массовых сценах мирные жители:
+
+deleted_players_list      = Неудачники:
+
+policechannel_kick_reason   = Покидание офиса
+mafiozichannel_kick_reason    = Покидание логова
+
+showplayer        = $ROLE: $NICK - $$NUMBER
+
+command_commandshistory_syntax    = Формат команды: <r>!commandshistory [gameid] [limit]</r>
+no_lines_in_log       = Ничего не найдено!
+no_help_for_such_topic      = Помощь по теме "$ROLE" недоступна!
+command_command       = Команда:
+command_synonimes     = синонимы:
+command_access_level      = Уровень доступа, не менее: $ROLE
+command_source        = Применение:
+command_source_p      = игровой канал
+command_source_m      = приват бота
+command_source_l      = логово мафов
+command_source_c      = офис Каттани
+
+no_such_nick_in_db      = Нет такого пользователя в базе данных!
+unknown_key       = Неизвестный ключ $ROLE!
+admin_changes_your_info     = Внимание! $NICK изменил ваши данные - теперь у вас $ROLE = $NUMBER!
+user_exceeds_maxpasses      = $ROLE $NICK признаётся невменяемым!
+bot_takes_penalty     = Бот забирает штраф - $NUMBER$
+quit_message        = Бот прощается со всеми и покидает вас! До встречи в эфире!
+slut_fucks_you        = С вами провела ночь девка!
+you_cant_kill_bomzh     = Вы не можете убить бомжа!
+you_cant_kill_allied_role   = Вы не можете убить дружественную роль!
+now_you_can_invite_to_office    = Теперь вы можете приглашать в офис командой <r>!invite <nick></r>
+you_cant_invite_while_not_checked = Вы не можете приглашать в офис до тех пор, пока не найдёте мирного жителя или доктора!
+now_you_cant_invite_to_office   = Теперь вы не можете приглашать в офис! Надо найти ещё мирных жителей!
+you_cant_invite_to_office   = Вы не можете приглашать в офис! Надо найти ещё мирных жителей!
+you_were_invited_to_policechannel = Вы были приглашены в офис Каттани! Добро пожаловать на $NICK
+nick_was_invited_to_policechannel = Игрок $NICK теперь считается сотрудником офиса Каттани!
+reg_time_left       = До конца регистрации осталось $NUMBER $NORMAL $NUMBER $NORMAL!
+reg_time_left_less_than_minute    = До конца регистрации осталось $NUMBER $NORMAL!
+night_time_left       = До наступления утра осталось $NUMBER $NORMAL $NUMBER $NORMAL!
+night_time_left_less_than_minute  = До наступления утра осталось $NUMBER $NORMAL!
+vote_time_left        = До окончания голосования осталось $NUMBER $NORMAL $NUMBER $NORMAL!
+vote_time_left_less_than_minute   = До окончания голосования осталось $NUMBER $NORMAL!
+you_have_not_enough_money_for_korder  = У вас недостаточно денег, чтобы делать заказ киллеру на такую сумму!
+you_have_not_enough_money_for_gorder  = У вас недостаточно денег, чтобы делать заказ телохранителю на такую сумму!
+game_stopped_by_admin     = Бот остановлен $ROLE $NICK!
+game_was_started_by_admin   = Бот запущен $ROLE $NICK!
+cmds_for_level        = Уровень: $ROLE
+nickserv_ident_query_received   = Получен запрос на идентификацию (nickserv)...
+you_cant_see_value_of_key   = Вы не можете смотреть значение этого ключа!
+greeting_for_nonregistered_users  = Добро пожаловать на канал интерактивной увлекательной игры в мафию! В настоящий момент вы являетесь незарегистрированным пользователем, и вам могут быть недоступны некоторые игровые функции. Для регистрации наберите в приват боту команду <r>!reg <password></r>, где <password> - это пароль, который вы будете использовать в дальнейшем командой <r>!ident <password></r>. Для получения более подробной информации наберите в приват боту команду <r>!help</r>. Надеемся, что вам понравится игра!
+greeting_mayregister      = В настоящий момент бот находится в состоянии ожидания начала новой игры. Вы можете начать игру, набрав на канале команду <r>!reg</r>.
+greeting_register     = В настоящий момент на канале идёт регистрация игроков! Вы ещё можете успеть присоединиться к игре, набрав на канале команду <r>!reg</r>.
+greeting_stopped      = В настоящий момент бот остановлен одним из операторов канала и, к сожалению, регистрация в игру невозможна.
+greeting_gamestarted      = В настоящий момент на канале уже идёт игра, и вам придётся дождаться её завершения!
+
+player_blocked_for_role_reject    = неподтверждение роли
+user_was_blocked      = Товарищ $NICK заблокирован на $NUMBER $NORMAL (причина: $PHRASE)!
+user_was_blocked_by     = Товарищ $NICK заблокирован на $NUMBER $NORMAL $ROLE $NICK (причина: $PHRASE)!
+address_was_blocked     = Адрес $NICK заблокирован на $NUMBER $NORMAL (причина: $PHRASE)!
+address_was_blocked_by      = Адрес $NICK заблокирован на $NUMBER $NORMAL $ROLE $NICK (причина: $PHRASE)!
+blocklist_empty       = Нет заблокированных адресов!
+you_were_blocked_till     = Вы заблокированы и сможете играть в игре #$NUMBER!
+no_such_block       = Нет блока с таким идентификатором!
+num_records_deleted     = $NUMBER $NORMAL $NORMAL.
+#block_deleted        = Блок с $NICK снят!
+block_deleted_by      = Блок с $NICK снят $ROLE $NICK!
+no_admins_found       = Ничего не найдено.
+please_keep_silence_during_game   = Товарищ $NICK! Соблюдайте тишину в зале во время игры!
+player_was_ignored_for_flood    = флуд бота
+no_such_ignore        = Нет такой записи в игнор-листе!
+ignore_deleted        = Пользователь с маской $NICK снят с игнора!
+ignore_deleted_by     = Пользователь с маской $NICK снят с игнора $ROLE $NICK!
+user_ignored_by       = Пользователь с маской $NICK поставлен в игнор бота на $NUMBER $ROLE $NICK (причина: $PHRASE)!
+user_ignored        = Пользователь с маской $NICK поставлен в игнор бота на $NUMBER (причина: $PHRASE)!
+ignore_list_is_empty      = Игнор-лист пуст!
+you_cant_identify_during_game   = Вы не можете идентифицироваться, пока идёт игра! Чтобы идентифицироваться, вам придётся дождаться завершения игры или покинуть её!
+you_must_identify_to_continue_playing = Добро пожаловать обратно в игру! Вам придётся идентифицировать свой ник, чтобы продолжить игру. Наберите <r>!ident <password></r> в приват боту, где <password> - ваш пароль!
+scores_were_not_save_due_demogame = Внимание! Демо-игра завершена. Деньги игроков не сохраняются в статистике!
+winners_gets_bonus      = Победители получают приз: $$NUMBER!
+error_posting_resultsfor_user   = Ошибка записи данных в таблицу игроков для [$NICK] - нет такого id или нулевая сумма.
+topmoney_table_is_empty     = Таблица самых богатых игроков пуста!
+user_was_not_found_in_users_table = Ник $NICK не найден в таблице игроков!
+banner          = АХТУНГ, АХТУНГ! $PHRASE
+error_reading_banner_file   = Ошибка чтения файла с баннером!
+error_writing_banner_file   = Ошибка записи в файл с баннером!
+error_posting_stat_games    = Ошибка записи данных в таблицу STAT_GAMES!
+error_posting_stat_summary    = Ошибка записи данных в таблицу STAT_SUMMARY!
+your_status       = Ваш статус: $ROLE.
+stat_games_table_is_empty   = Таблица игр пустая!
+illegal_amount        = Недопустимая сумма!
+illegal_amount_for_getmoney   = Недопустимая сумма! Значение суммы для команды <r>!getmoney</r> может быть от <number>1</number> до $NUMBER!
+not_enough_money_for_getmoney_mustbe  = Недостаточно денег в таблице статистики для !getmoney, для запрашиваемой суммы нужно иметь не менее $$NUMBER!
+no_data         = нет данных
+for_one_day       = <bold>за сутки</bold>:
+for_one_week        = <bold>за неделю</bold>:
+for_one_month       = <bold>за месяц</bold>:
+for_one_year        = <bold>за год</bold>:
+absolute_record       = <bold>абсолютный рекорд</bold>:
+error_reading_table_LASTGAME    = Shit happens with table LASTGAME!
+no_such_game_in_stat      = Нет такой игры в статистике!
+game_was_started      = начата:
+game_was_ended        = закончена:
+won_role_was        = победитель:
+was_played_num_players      = участвовало:
+game_duration = продолжительность игры:
+you_cant_use_commands_history_now = Дождитесь завершения игры!
+you_must_identify_first     = Вы должны сначала идентифицировать свой ник у бота командой <r>!id <password></r>!
+error_changing_user_password    = Ошибка при сохранении пароля! Обратитесь к администратору бота!
+whois_info        = $ROLE $NICK ($ROLE): последний заход $PHRASE с адреса $PHRASE, $NORMAL
+whois_info_admin = $ROLE $NICK ($ROLE): идентифицирован как $NICK, последний заход $PHRASE с адреса $PHRASE, $NORMAL
+dont_sleep_on_registration    = - регистрируйтесь, или найдите себе другой канал для сна!
+show_won        = Статистика $NICK - денег: $$NUMBER, игр: $NUMBER, побед: $NUMBER
+not_enough_money_for_operation    = Не хватает денег на счету для совершения операции! Требуется $$NUMBER
+you_are_not_blocked     = Вы не заблокированы!
+error_during_delete_block   = Ошибка при удалении блока!
+your_block_was_deleted      = Вы разблокированы!
+user_was_selfblocked      = Товарищ $NICK разблокировал себя!
+you_have_n_getmoneys_left   = Вы можете использовать команду <r>!getmoney</r> ещё $NUMBER $NORMAL!
+you_have_0_getmoneys_left   = Вы больше не можете использовать команду <r>!getmoney</r> в этой игре!
+amount_was_redrawed     = С вашего счёта списано $$NUMBER!
+please_reg_to_reg     = Прежде, чем начинать игру, вы должны идентифицировать свой ник командой <r>!id <password></r>! Если вы до сих пор не зарегистрированы у бота - тогда сначала наберите <r>!reg <password></r> в привате бота!
+game_stat_saved_in_web      = Результаты этой игры можно посмотреть по адресу http://mafion.dal.net.ru/index_.php?pid=showgame&id=
+user_is_not_blocked     = Игрок не заблокирован
+error_during_unblock      = Ошибка разблокировки! Ни одна запись в таблице не изменена
+db_internal_error     = Внутренняя ошибка базы данных
+money_was_transferred     = Деньги в сумме $$NUMBER переведены на счёт $NICK. За работу бот забирает комиссионные - $$NUMBER
+invalid_amount_minimal_is   = Минимальная сумма - $$NUMBER
+somebody_transfer_money_for_you   = $NICK перевёл на ваш счёт $$NUMBER!
+you_were_deidentified     = Ваша идентификация аннулирована в связи со сменой ника.
+turned_on       = ВКЛ
+turned_off        = ВЫКЛ
+blocked_status        = блокировка:
+upto_game_number      = до игры
+you_already_added_in_meetlist   = Вы уже добавлены в список гостей!
+you_play_too_few_games      = Минимальное количество игр для !addme - $NUMBER, вы сыграли - $NUMBER
+you_are_not_in_meetlist     = Вы не включены в список гостей!
+guestslist_is_empty     = Список гостей пуст!
+guestslist        = Список гостей:
+guestslist_deleted      = Список гостей очищен (удалено: $NUMBER)!
+you_can_recruit_player_by_command = Вы можете завербовать этого игрока командой <r>!recruite $NICK
+you_cant_recruite_this_player   = Вы не можете вербовать этого игрока!
+you_recruite_offer_was_sent   = Ваше предложение передано
+role_wants_recruite_you     = Вас хочет завербовать $ROLE! Наберите !team $NORMAL, если хотите присоединиться к команде!
+you_were_not_invited_to_this_team = Вы не были приглашены в эту команду
+now_you_playing_with_citizens   = Теперь вы играете за мирных жителей и получите вместе с ними приз в случае победы!
+now_you_playing_with_mafiozi    = Теперь вы играете за команду <r>мафиози</r> и получите вместе с ними приз в случае победы!
+role_joining_team     = Теперь вместе с вами играет $NICK!
+now_you_playing_like_citizen    = Теперь все думают, что вы играете за мирных жителей!
+you_cant_kill_while_you_have_no_money = Вы не можете стрелять, пока не заработаете денег!
+stat_nick_by_roles      = Статистика товарища $NICK по ролям:
+roles_commands_list     = Ночные команды ролей (в скобках - код справки):
+you_cant_see_money_because_you_dead = Когда вы пришли в банк проверить счет, кассир заорал от ужаса при виде ходячего мертвеца и ничего вам не сообщил.
+nick_too_long       = Слишком длинный ник. Максимально допустимая длина ника - $NUMBER $NORMAL, длина вашего ника - $NUMBER $NORMAL.
+role_was_reinited_by      = Игровые параметры роли "$ROLE" были сброшены в исходное состояние $ROLE $NICK!
+no_such_points_key      = Нет такого ключа!
+
+getmoney_not_available_in_demo_mode = Команда !getmoney недоступна в демо-режиме.
+
+not_enough_level_for_setkey = Чтобы менять или смотреть профиль другого пользователя, нужно иметь уровень доступа больший, чем у этого пользователя.
+
+title_too_long = Слишком длинный титул. Максимально допустимая длина титула - $NUMBER $NORMAL, длина вашего титула - $NUMBER $NORMAL.
+
+you_found_gun = Вы, $NICK, нашли пистолет!
+please_confirm_gun = Подтвердите находку ($NUMBER/$NUMBER) до наступления ночи!
+you_dont_accept_gun = Вы не успели подтвердить находку пистолета и остались с голыми руками!
+now_you_have_gun = Теперь у вас есть пистолет!
+you_have_no_gun = У вас нет пистолета!
+you_have_n_bullets_left = У вас есть $NUMBER $NORMAL.
+you_have_0_bullets_left = У вас нет патронов!
+how_to_get_bullets = Купить патроны можно в магазине. Справка по магазину: <n>!help shop</n>
+not_enough_money = У вас недостаточно денег!
+shot_failure = Пистолет у вас старый, осечка вышла.
+you_got_random_bullets = В обойме есть $NUMBER $NORMAL!
+
+new_potd = Новый рекорд суток:
+new_potw = Новый рекорд недели:
+new_potm = Новый рекорд месяца:
+new_poty = Новый рекорд года:
+new_pabs = Новый абсолютный рекорд:
+record_was = Было:
+
+
+shop_command_group_name = Использование артефактов
+wrong_time_for_shopping = Неподходящее время делать покупки.
+no_such_artifact = Нет такого артефакта!
+you_dont_have_such_artifact = У вас нет такого артефакта!
+you_spent_money = Ваш кошелёк стал легче на $$NUMBER.
+not_enough_level_to_buy = Чтобы это купить, нужен уровень не меньше $NUMBER!
+pricelist = Доступные артефакты:
+shop_is_empty = В магазине пусто!
+inventory = Имеющиеся артефакты:
+inventory_is_empty = У вас нет предметов.
+
+show_artifact_settings = Параметры предмета $ROLE: id = $NUMBER, name = $ROLE, name_pl = $ROLE, price = $NUMBER, synonyms = [$ROLE], pieces = [$ROLE], quantityDivider = $ROLE, enabled = $ROLE, permissions = [$ROLE], command = $ROLE, expires = $ROLE, disposable = $ROLE
+error_writing_artifacts_ovr = Ошибка записи в файл artifacts.ovr!
+invalid_pieces_length = Слов для pieces должно быть три штуки!
+invalid_key_for_artifact = Неправильный ключ артефата!
+invalid_value_for_artifact = Неправильное значение для ключа!
+error_saving_artifact = Ошибка при сохранении параметров артефакта $ROLE!
+
+no_orders = Нет заказов!
+no_such_order = Нет такого заказа!
+dealer_canceled_your_order = Ваш заказ - $NICK ($$NUMBER) - отменён <r>барыгой</r>! Попробуйте предложить больше денег.
+you_canceled_your_order = Ваш заказ - $NICK ($$NUMBER) - отменён.
+player_canceled_order = Заказ $NUMBER - $NICK ($$NUMBER) - отменён заказчиком!
+your_order_completed = Ваш заказ - $NICK ($$NUMBER) - выполнен!
+your_shop_order_taken = Ваш заказ в магазин - $NICK ($$NUMBER) - принят!
+new_shop_order = Поступил новый заказ: $NICK ($$NUMBER). Номер заказа $NUMBER. Продаёте ($NUMBER $NUMBER/$NUMBER $NUMBER) ?
+new_shop_order_with_nick = Поступил новый заказ от $NICK: $NICK ($$NUMBER). Номер заказа $NUMBER. Продаёте ($NUMBER $NUMBER/$NUMBER $NUMBER) ?
+shop_closed = Магазин закрыт!
+you_cant_order_artifact = Вы не можете купить этот артефакт!
+order_canceled_because_artifact_sold_out = Заказ $NUMBER - $NICK ($$NUMBER) - отменён, потому что артефакт кончился!
+your_order_canceled_because_artifact_sold_out = Ваш заказ - $NICK ($$NUMBER) - отменён, потому что артефакт кончился!
+your_price_too_small = Вы предложили слишком мало денег. Минимальная цена - $$NUMBER!
+order_id_missing = Не указан номер заказа!
+expired_stuff = Выброшенные артефакты:
+not_enough_level_to_use_artifact = Чтобы использовать артефакт $NICK, нужен уровень не меньше $NUMBER!
+buy_artifact_before_use = Прежде чем использовать артефакт $NICK, его надо купить!
+talk_syntax = Формат команды: <r>!talk текст фразы</r>
+victim_used_firewall = Взлому помешал брандмауэр, установленный у жертвы!
+victim_used_condom = Клиент грамотный попался, предохраняется.
+cant_sell_weapon_license_expired = Ваша лицензия на продажу оружия закончилась! Заказ отменён.
+you_were_blocked_by_artifact = Вы так намаялись за день, что проспали всю ночь. Вам приснилось, что вы сделали заказ.
+
+no_such_points_key = Нет такого ключа!
+points_changed = points for $NICK changed to $NICK by $NICK
+error_writing_points_ovr = Ошибка записи в файл $NICK!
+
+artifact_list = Артефакты:
+
+birthdays_today = Сегодня мы отмечаем день рождения
+no_birthdays_today = Сегодня нет именинников.
+
+no_such_command = Неизвестная команда!
+invalid_command_permissions = Неизвестный тип разрешений: $NICK
+admin_changed_your_email = Внимание! $NICK изменил ваш e-mail на $NICK.
+admin_changed_your_password = Внимание! $NICK изменил ваш пароль на $NICK.
+admin_changed_your_title = Внимание! $NICK изменил ваш титул на $NICK.
+admin_changed_your_skipped_all = Внимание! $NICK изменил ваш параметр SKIPPED_ALL на $NUMBER.
+
+adduser_nick_already_registered = Ник $NICK уже зарегистрирован!
+command_sources = Применение команды $NICK:
+command_handler_not_found = <bold>Произошла ошибка! Не найден обработчик команды !$NICK</bold>
+
+existing_user_groups = Существующие группы пользователей:
+user_in_groups = $NICK входит в группы:
+user_not_in_groups = $NICK не входит ни в одну группу.
+no_such_user_group = Группа не найдена:
+no_users_in_group = Пусто.
+you_cant_add_to_user_group = Вы не можете добавлять пользователей в группу:
+you_cant_remove_from_user_group = Вы не можете удалять пользователей из группы:
+
+unknown_error = Неизвестная ошибка!
+
+your_groups_are = Ваши группы:
+
+default_title1 = пользователь
+default_title2 = пользователем
+
+cmds_for_group = Группа: $ROLE
+command_access_groups = Доступна группам:
+
+unknown_rehash_option = Неизвестная опция: $NICK
+artifacts_rehashed = Артефакты перезагружены.
+commands_rehashed = Команды перезагружены.
+messages_rehashed = Сообщения перезагружены.
+phrases_rehashed = Фразы перезагружены.
+pieces_rehashed = Формы слов перезагружены.
+points_rehashed = Очки перезагружены.
+prompts_rehashed = Подсказки ролей перезагружены.
+roles_rehashed = Роли перезагружены.
+settings_rehashed = Параметры бота перезагружены.
+strings_rehashed = Топик и баннер перезагружены.
+usergroups_rehashed = Группы пользователей перезагружены.
+
+last_topic_info = Последний топик установлен $NUMBER пользователем $NICK.
+no_last_topic_info = Нет данных.
+
+message_key_not_found = Забыли написать сообщение для ключа $ROLE!
+phrase_key_not_found = Забыли написать фразу для ключа $ROLE!
+prompts_key_not_found = Забыли написать подсказку для ключа $ROLE!
+pieces_key_not_found = Забыли написать формы слов для ключа $ROLE!
+
+command_not_found = Команда не найдена: $NICK
+usercommand_rights = Персональные права пользователя $NICK на команды:
+usercommand_no_rights = Пользователь $NICK не имеет персональных прав на команды:
+you_must_specify_command = Вы должны указать название команды!
+
+config_key_not_found = Ключ не найден: $NICK
+
+current_config_message_is = Текущее значение сообщения с ключом $ROLE: $NORMAL
+current_config_prompt_is = Текущее значение подсказки с ключом $ROLE: $NORMAL
+current_config_phrase_is = Текущее значение фразы с ключом $ROLE: $NORMAL
+
+show_command_settings = Параметры команды $ROLE: id = $ROLE, group = $ROLE ($ROLE), source = $ROLE, synonimes = $ROLE
+
+identified_nick_doesnt_match = Ваша предыдущая идентификация была на другой ник!
+user_already_identified = Такой пользователь уже идентифицирован!
+
+command_syntax = Синтаксис:
+
+help_example = *** Примеры:
+help_see_also = См. также:
+help_unknown = [неизвестный тип справки $NUMBER]:
+
+office_team = Команда офиса Каттани:
+userinfo = Пользователь $NICK идентифицирован как $NICK.
+user_not_identified = Пользователь $NICK не идентифицирован.
+you_identified_as = Вы идентифицированы как $NICK.
+
+identify_nick_collision = Ник $NICK зарегистрирован. Идентификация с зарегистрированного ника возможна только на тот же ник.
+whowas_info = $NUMBER: $NICK $ROLE с адреса $ROLE
+
+you_cant_remove_others_bans = Вы не можете снимать баны, поставленные другими.
+
+current_online_user_skipped_all = Текущее значение параметра skipped_all пользователя $NICK ($NICK): в базе: $NUMBER, в users: $NUMBER, в players: $NUMBER
+current_db_user_skipped_all = Текущее значение параметра skipped_all пользователя $NICK в базе: $NUMBER
+
+host_blocked_by = Адрес с маской $NICK заблокирован на $NUMBER $NORMAL $ROLE $NICK (причина: $PHRASE)!
+blocked_host_info = $NUMBER. $NICK - #$NUMBER ($NICK: <night>$NORMAL</night>)
+no_blocked_hosts = Нет заблокированных адресов.
+host_not_blocked = Нет такой записи в списке заблокированных адресов!
+host_unblocked_by = Блок с адреса с маской $NICK снят $ROLE $NICK!
+your_host_blocked_till = Ваш адрес заблокирован до игры #$NUMBER.
+your_host_blocked = Ваш адрес заблокирован.
+
+error_log_is_empty = Пусто.
+no_such_error_id = Нет ошибки с таким номером!
+
+current_time = Текущее время: $NORMAL, в базе: $NORMAL.
+game_time = Продолжительность игры: $NUMBER $NORMAL ($NUMBER $NORMAL $NUMBER $NORMAL $NUMBER $NORMAL)
+idle_time = Бот скучает: $NUMBER $NORMAL ($NUMBER $NORMAL $NUMBER $NORMAL $NUMBER $NORMAL)
+
+nick_conflicts_with_command_or_role_name = Ник не должен совпадать с командами бота и названиями ролей!
+
+replace_list = Список замен:
+replace_list_empty = Нет замен!
+dead_player_cant_be_replaced = Поздно пить боржоми!
+you_are_added_to_replace_list = Вы добавлены в список замен.
+you_are_removed_from_replace_list = Вы удалены из списка замен.
+you_are_not_in_replace_list = Вас нет в списке замен!
+wrong_time_for_replace = Неподходящее время для замены!
+player_wants_replace = <system>АХТУНГ!</system> Товарищ $NICK хочет замены!
+player_replaced = <system>ЗАМЕНА!</system> Вместо $NICK теперь играет $NICK!
+you_already_played_in_current_game = Вы уже играли в этой игре!
+replace_not_available_with_negative_balance = Замена недоступна для игроков с отрицательным балансом!
+not_enough_money_for_replace = У вас недостаточно денег для замены! Минимальная сумма - $$NUMBER!
+you_are_penalized_for_replace = Бот забирает $$NUMBER за выход из игры!
+you_are_removed_from_replace_list_due_to_negative_balance = Вы удалены из списка замен из-за отрицательного баланса!
+you_are_removed_from_replace_list_due_to_not_enough_money = Вы удалены из списка замен из-за недостатка денег! Минимальная сумма - $$NUMBER!
+
+user_wants_replace = <n>АХТУНГ!</n> Товарищ $NICK хочет сыграть вместо кого-нибудь!
+you_are_replaced = Теперь вместо вас играет $NICK!
+you_are_already_asked_for_replace_today = Вы уже предлагали замену сегодня!
+
+with_gun = с пистолетом
+
+killer_order_was_canceled = Заказ $NICK ($$NUMBER) отменён заказчиком!
+guardian_order_was_canceled = Заказ $NICK ($$NUMBER) отменён заказчиком!
+
+#ignore_blocked_host = Исключение.
+#host_block_ignored_by = Адрес с маской $NICK исключен из блокированных адресов $ROLE $NICK (причина: $PHRASE)
+blocked_hosts_exception_added_by = Пользователь $NICK исключен из блокированных адресов $ROLE $NICK (причина: $PHRASE)
+blocked_hosts_exception_already_exists = Пользователь $NICK уже находится в списке исключений!
+invalid_blocked_hosts_exception_id = Нет исключения с таким номером!
+no_blocked_hosts_exceptions = Нет исключений из заблокированных адресов.
+blocked_hosts_exception_added = Пользователь $NICK добавлен в список исключений из блокированных адресов $ROLE $NICK.
+
+slut_totally_fucks_you = Вы не можете голосовать, потому что с вами провела ночь девка!
+
+notify_on_reg_start_info = Уведомление о начале регистрации для $NICK: $ROLE.
+reg_start_notice = Уважаемый товарищ $NICK! На канале мафион началась регистрация. Оторвите свою задницу от дивана и присоединяйтесь!
+
+available_skins = Доступные скины:
+current_skin_info = Текущий скин: $NICK ($ROLE).
+no_such_skin = Нет такого скина!
+wrong_time_for_skin_change = Менять скин можно только когда бот остановлен, или не идёт игра!
+current_skin_changed = Текущий скин изменён на $NICK $ROLE $NICK!
+
+your_order_canceled_due_to_not_enough_level = Ваш ход отменён из-за нехватки уровня!
+shop_order_canceled_due_to_not_enough_money = Заказ - $NICK ($$NUMBER) - отменён из-за нехватки денег у заказчика!
+your_shop_order_canceled_due_to_not_enough_money = Ваш заказ - $NICK ($$NUMBER) - отменён из-за нехватки денег!
+
+artifacts_cant_be_rehashed_during_game = Артефакты не могут быть перезагружены во время игры!
+roles_cant_be_rehashed_during_game = Роли не могут быть перезагружены во время игры!
+
+level_counters = Количество команд роли $ROLE по уровням:
+artifact_reinited_by = Параметры артефакта "$ROLE" были сброшены в исходное состояние $ROLE $NICK!
+setkey_reinited_by = Значение ключа $PHRASE ($NORMAL) было сброшено в исходное состояние $ROLE $NICK!
+message_reinited_by = Текст сообщения $ROLE сброшен в исходное состояние $ROLE $NICK!
+pieces_reinited_by = Формы слов $ROLE были сброшены в исходное состояние $ROLE $NICK!
+points_reinited_by = Очки $ROLE были сброшены в исходное состояние $ROLE $NICK!
+prompt_reinited_by = Подсказка роли $ROLE была сброшена в исходное стостояние $ROLE $NICK!
+
+spy_action = Вы видели, что у $NICK всю ночь горел свет.
+spy_nothing = Вы всю ночь пристально наблюдали за домом $NICK, но так ничего и не увидели.
+
+invalid_feature_syntax = Неправильное значение: $ROLE. Формат параметра: <night>название:уровень</night>!
+
+hooligan_freezes_you = Вы не можете голосовать днём, потому что вас избил хулиган!
+hooligan_totally_freezes_you = Вы не можете голосовать днём и ходить ночью, потому что вас избил хулиган!
+you_cant_recruite_tonight_anymore = Сегодня вы уже завербовали игрока!
+now_you_playing_with_hooligan = Вы стали членом шайки <r>хулигана</r> и получите вместе с ней приз в случае победы!
+hooligan_cancels_recruite_offer = Хулиган передумал вас вербовать!
+hooligan_channel = Шайка хулигана: $NICK
+you_skip_you_turn_because_of_hooligan = Вы не можете ходить этой ночью, потому что вас избил хулиган!
+wrong_time_for_recruiting = Неподходящее время для вербовки!
+punk_freezes_you = Вы не можете голосовать днём, потому что вас избил член шайки хулигана!
+punk_totally_freezes_you = Вы не можете голосовать днём и ходить ночью, потому что вас избил член шайки хулигана!
+
+won_x   = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> ПОБЕДА ХУЛИГАНА!
+won_mx  = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> Ничья маньяка и хулигана!
+won_fx  = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> Ничья мафиози и хулигана!
+won_kx  = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> Ничья киллера и хулигана!
+won_cx  = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> Ничья комиссара Каттани и хулигана!
+won_bx  = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> Ничья бомжа и хулигана!
+
+hooliganchannel_kick_reason = Покидание шайки
+hooligan_is_dead_viva_new_hooligan = Ваш новый главарь - $NICK! Помянем старого главаря и поприветствуем нового!
+
+acl_reset_commands = Удалено из списка персональных команд:
+acl_allowed_commands = Разрешено к выполнению:
+acl_denied_commands = Запрещено к выполнению:
+
+invalid_reg_bonus = Бонус за регистрацию должен быть меньше $$NUMBER!
+
+no_such_phrase_id = Нет фразы с таким номером!
+ambiguous_phrase_key = Фраз с ключом $NICK больше одной. Для уточнения используйте <r>номер фразы</r> вместо ключа.
+phrase_info = $NUMBER - $NORMAL
+phrase_reinited_by = Фраза $ROLE ($NUMBER) сброшена в исходное состояние $ROLE $NICK!
+
+role_cmd_argtype_nick = <r>&lt;ник/номер></r>
+role_cmd_argtype_role = <r>&lt;код роли></r>
+
+unknown_role_codes = Неизвестные коды ролей:
+
+you_cant_assign_command = Вы не можете выдавать права на команды:
+groupcommand_rights = Права группы $NICK на команды:
+groupcommand_no_rights = Группа $NICK не имеет прав на команды:
+
+you_cant_assign_config_key = Вы не можете выдавать права на ключи:
+acl_allowed_config_keys = Разрешено изменение ключей:
+acl_denied_config_keys = Запрещено изменение ключей:
+acl_reset_config_keys = Удалено из списка персональных разрешений:
+groupkey_rights = Права группы $NICK на ключи:
+groupkey_no_rights = Группа $NICK не имеет прав на ключи:
+
+you_cant_take_yourself_as_hostage = Это был бы номер...
+wrong_time_for_using_hostage = Прикрыться заложником нужно успеть до окончания ночи!
+you_cant_use_yourself_as_cover = А смысл?
+you_can_use_only_hostages = Вы можете прикрываться только заложниками!
+you_can_kill_only_hostages = Вы можете стрелять только в заложников!
+terrorist_takes_you_as_hostage = Террорист взял вас в заложники! Заложники сидят в яме и не могут ходить ночью и делать покупки в магазине!
+you_force_hostages_to_vote_yes = Вы принуждаете заложников голосовать за казнь $NICK.
+you_force_hostages_to_vote_no = Вы принуждаете заложников голосовать против казни $NICK.
+you_force_hostages_to_vote_whoknows = Вы принуждаете заложников воздержаться от казни $NICK.
+you_force_hostages_to_vote_for_night = Вы принуждаете заложников голосовать за <n>!!ночь</n>.
+you_canceled_forced_voting = Вы отменили принудительное голосование.
+terrorist_forces_you_to_vote_yes = Террорист принуждает вас голосовать за казнь $NICK! Неподчинение наказывается!
+terrorist_forces_you_to_vote_no = Террорист принуждает вас голосовать против казни $NICK! Неподчинение наказывается!
+terrorist_forces_you_to_vote_whoknows = Террорист принуждает вас воздержаться от казни $NICK! Неподчинение наказывается!
+terrorist_forces_you_to_vote_for_night = Террорист принуждает вас голосовать за <n>!!ночь</n>! Неподчинение наказывается!
+terrorist_doesnt_force_you_to_vote_anymore = Террорист отменил принудительное голосование!
+hostages_cant_act = Вы находитесь в заложниках у террориста и не можете ходить ночью и делать покупки в магазине!
+you_are_not_hostage_anymore = Террорист больше не удерживает вас в заложниках! Вы снова можете ходить ночью и делать покупки в магазине!
+you_are_redeemed_from_terrorist = Поздравляем, Вас выкупили у террориста! Вы снова можете ходить ночью и делать покупки в магазине!
+won_tx = <bold>ИГРА #$NUMBER ОКОНЧЕНА!</bold> Ничья террориста и хулигана!
+hostage_list = Заложники:
+hostage_list_is_empty = Пусто.
+wrong_time_to_force_vote = Принуждать заложников к голосованию можно только до наступления голосования!
+your_redeem_offer_accepted = Ваше предложение выкупа за $NICK передано!
+you_canceled_your_redeem_offer = Ваше предложение выкупа за $NICK отменено!
+you_have_not_enough_money_for_redeem_offer = У вас недостаточно денег, чтобы предложить выкуп на такую сумму!
+
+authorize_yourself_at_nickserv_before_turning_autoid_on = Авторизуйтесь у $NICK прежде, чем включать авто-идентификацию у бота.
+
+command_history_is_empty = Пусто.
+no_such_command_history_entry_id = Нет записи с таким номером!
+user_used_raw_command_notice = $NICK использовал команду <n>!raw</n> (id=$NUMBER).
+you_must_specify_artifact_price = Вы должны указать цену артефакта, которую вы готовы заплатить за него!
